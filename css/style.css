@@ -47,15 +47,11 @@ flex-wrap: wrap;
 
 /* გამონათქვამი */
 .about_block{
-   width: 700px;
-   height: 300px;
-  border: 2px solid rgb(2, 2, 10);
-}
-.about_block1{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+ justify-content: center;
+ background-color: antiquewhite;
 }
+
 /* .text-block{
    margin-left: 15px;
 } */
