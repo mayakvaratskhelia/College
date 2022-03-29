@@ -10,6 +10,7 @@ body{
 }
 /* nav */
 .nav-block{
+   overflow: hidden;
   background-color: rgb(68, 0, 255);
 }
 .nav-block ul img{
@@ -71,6 +72,7 @@ flex-wrap: wrap;
   .nav-block li,
   .user_block {
   display: none;
+   float: none;
 }
 
 }
