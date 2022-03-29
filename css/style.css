@@ -1,0 +1,65 @@
+*{
+  list-style-type: none;
+  text-decoration: none;
+}
+body{
+  margin:0;
+  padding: 0;
+  
+}
+/* nav */
+.nav-block{
+  background-color: rgb(68, 0, 255);
+}
+.nav-block,
+.nav-block ul 
+{
+  display:flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+}
+.nav-block a,
+.user_block{
+ padding-left: 25px;
+}
+.nav-block a{
+  color:black;
+}
+
+.col{
+  text-align: center;
+}
+
+.col_block{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+ 
+}
+.col_block img{
+   object-fit: cover;
+   width: 350px;
+   height: 300px;
+}
+
+
+
+/* გამონათქვამი */
+.about_block{
+   width: 700px;
+   height: 300px;
+  border: 2px solid rgb(2, 2, 10);
+}
+.about_block1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* .text-block{
+   margin-left: 15px;
+} */
+.about_block .text{
+  width: 350px;
+ 
+}

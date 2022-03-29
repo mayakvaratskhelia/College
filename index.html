@@ -7,6 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>College</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slide.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/contact.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -14,7 +19,7 @@
   <header class="d_header">
     <section class="nav-block">
       <div class="logo">
-        <img src="" alt="logo">
+        <img src="img/book.png" alt="logo" width="50">
       </div>
       <nav>
         <ul>
@@ -25,76 +30,76 @@
           <li><a href="#">კონტაქტი</a></li>
         </ul>
       </nav>
-      <div>
+      <div class="user_block">
         <img src="img/search.svg" alt="search" width="30">
         <img src="img/user.svg" alt="user" width="30">
       </div>
     </section>
     <!-- section one -->
     <section class="slide-block">
+      <ul class="slideshow">
+        <li><span></span></li>
+        <li><span>2</span></li>
+        <li><span></span></li>
+        <li><span></span></li>
+        <li><span></span></li>
+      </ul>
+
 
     </section>
   </header>
   <!-- header -->
   <main class="d_main">
-    <section class="about_block">
-      <div>
-        <h1>ჩვენს შესახებ</h1>
+    
+    <section class="col">
+      <div class="top-title">
+        <h1>Top სასწავლებლები</h1>
       </div>
-      <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa quas deserunt non dolorem odio.
-        Molestias aliquam commodi quaerat odio.
-        Explicabo deleniti deserunt fuga rem quam possimus quasi quos at voluptate.</p>
-      <div>
-        <img src="" alt="book">
-      </div>
-    </section>
-    <section class="">
       <div>
         <h1>უნივერსიტეტი</h1>
       </div>
-
-      <section class="">
+      <section class="col_block">
         <div>
-          <img src="" alt="">
-          <h2></h2>
+          <img src="img/photo/btu.jpg" alt="150" width="350">
+          <h4><a href="#">ბიზნესისა და ტექნოლოგიების უნივერსიტეტი</a></h4>
           <p></p>
         </div>
 
         <div>
-          <img src="" alt="">
-          <h2></h2>
+          <img src="img/photo/grigol.jpg" alt="150" width="350">
+          <h4><a href="#">გრიგოლ რობოქიძის უნივერსიტეტი</a></h4>
           <p></p>
         </div>
 
         <div>
-          <img src="" alt="">
-          <h2></h2>
+          <img src="img/photo/ivane.jpg" alt="150" width="350">
+          <h4><a href="#">ივანე ჯავახიშვილის უნივერსიტეტი</a></h4>
           <p></p>
         </div>
       </section>
 
       
     </section>
-    <section class="">
+    <section class="col">
       <div>
         <h1>კოლეჯები</h1>
       </div>
 
-      <section class="">
+      <section class="col_block">
         <div>
-          <img src="" alt="">
+          <img src="img/photo/konstruqt.jpg" alt="" width="350">
           <h2></h2>
           <p></p>
         </div>
 
         <div>
-          <img src="" alt="">
+          <img src="img/photo/konstruqt.jpg" alt="" width="350">
           <h2></h2>
           <p></p>
         </div>
 
         <div>
-          <img src="" alt="">
+          <img src="img/photo/konstruqt.jpg" alt="" width="350">
           <h2></h2>
           <p></p>
         </div>
@@ -102,37 +107,101 @@
 
 
     </section>
-    <section class="">
+    <section class="col">
       <div>
         <h1>სკოლები</h1>
       </div>
 
-      <section class="">
+      <section class="col_block">
         <div>
-          <img src="" alt="">
+          <img src="img/photo/baqsvudisskola.jpg" alt="სკოლა" width="350">
           <h2></h2>
           <p></p>
         </div>
 
         <div>
-          <img src="" alt="">
+          <img src="img/photo/britanulkartuli.jpg" alt="სკოლა" width="350">
           <h2></h2>
           <p></p>
         </div>
 
         <div>
-          <img src="" alt="">
+          <img src="img/photo/baqsvudisskola.jpg" alt="სკოლა" width="350">
           <h2></h2>
           <p></p>
         </div>
       </section>
     </section>
+    <section class="about_block">
+      <span class="about_block1">
+        <div class="text-block">
+        <p class="text">განათლება დიდებული საშუალებაა პიროვნების განვითარებისათვის.სწორედ განათლების წყალობით შეიძლება გახდეს გლეხის შვილი
+        -ექიმი, მეშახტის შვილი -შახტის დირექტორი, ფერმერის შვილი-ქვეყნის პრეზიდენტი" </p>
+        <p>- ნელსონ მანდელა.</p>
+        </div>
+        <div>
+          <img src="img/book.png" alt="book" width="150">
+        </div>
+      </span>
+    </section>
+
+    <section class="reg-block">
+      <div id="login-box">
+        <div class="left">
+          <h1>Sign up</h1>
+      
+          <input type="text" name="username" placeholder="Username" />
+          <input type="text" name="email" placeholder="E-mail" />
+          <input type="password" name="password" placeholder="Password" />
+          <input type="password" name="password2" placeholder="Retype password" />
+      
+          <input type="submit" name="signup_submit" value="Sign me up" />
+        </div>
+      
+        <div class="right">
+          <span class="loginwith">Sign in with<br />social network</span>
+      
+          <button class="social-signin facebook">Log in with facebook</button>
+          <button class="social-signin twitter">Log in with Twitter</button>
+          <button class="social-signin google">Log in with Google+</button>
+        </div>
+        <div class="or">OR</div>
+      </div>
+    </section>
   </main>
   <!-- main -->
-  <footer class="d_footer">
+<footer class="footer-distributed">
+
+  <div class="footer-right">
+
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>
+    <a href="#"><i class="fa fa-instagram"></i></a>
+
+  </div>
+
+  <div class="footer-left">
+
+    <p class="footer-links">
 
 
-  </footer>
+      <a class="link-1" href="#">მთავარი</a>
+
+      <a href="#">უნივერსიტეტი</a>
+
+      <a href="#">კოლეჯები</a>
+
+      <a href="#">სკოლები</a>
+
+      <a href="#">კონტაქტი</a>
+    </p>
+
+    <p> &copy; </p>
+  </div>
+
+</footer>
+ 
   <!-- footer -->
 </body>
 </html>
