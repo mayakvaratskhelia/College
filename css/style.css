@@ -6,7 +6,11 @@ body{
   margin:0;
   padding: 0;
   
-  
+}
+.all_block{
+ background-color: #52ACFF;
+background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
+
 }
 /* nav */
 .nav-block{
@@ -29,7 +33,7 @@ flex-wrap: wrap;
  padding-left: 25px;
 }
 .nav-block a{
-  color:black;
+  color:rgb(250, 250, 250);
 }
 
 .col{
