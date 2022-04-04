@@ -1,4 +1,5 @@
 *{
+  font-family: "BPG Nino Elite Exp Caps", sans-serif;
   list-style-type: none;
   text-decoration: none;
 }
@@ -12,29 +13,8 @@ body{
 background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
 
 }
-/* nav */
-.nav-block{
-   overflow: hidden;
-  background-color: rgb(68, 0, 255);
-}
-.nav-block ul img{
-  display: none;
-}
-.nav-block,
-.nav-block ul 
-{
-  display:flex;
-justify-content: space-around;
-align-items: center;
-flex-wrap: wrap;
-}
-.nav-block a,
-.user_block{
- padding-left: 25px;
-}
-.nav-block a{
-  color:rgb(250, 250, 250);
-}
+
+ /*.......  */
 
 .col{
   text-align: center;

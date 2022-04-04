@@ -11,12 +11,12 @@
 }
 
 .footer-distributed {
-  background-color: rgb(68, 0, 255);
+  background-color: #0a5071;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
   text-align: left;
-  font: normal 16px sans-serif;
+  font-family: "BPG Nino Elite Exp Caps", sans-serif;
   padding: 45px 50px;
 }
 
